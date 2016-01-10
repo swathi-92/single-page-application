@@ -1,0 +1,54 @@
+#image {
+    position: relative 
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.top,
+.bottom {
+    margin-top: 50px;
+    height: 300px;
+    width: 500px;
+}
+
+#image img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+    cursor: pointer;
+}
+
+#image img.top:hover {
+    opacity: 0;
+}
+@media only screen and (max-width: 400px){
+    #image {
+    position: relative 
+    width: 50px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.top,
+.bottom {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+}
+@media screen and (max-width: 600px) and (min-width:400px){
+ #image {
+    position: relative 
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.top,
+.bottom {
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+}    
+}

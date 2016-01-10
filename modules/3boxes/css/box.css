@@ -1,0 +1,26 @@
+.one,.two,.three{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     -o-box-sizing:border-box;
+
+}
+.one{
+    border: 8px solid cyan;
+    background-color: cyan;
+    color:black;
+}
+.two
+{
+    border: 8px solid blue;
+    padding: 20px;
+    
+}
+.three
+{
+    background-color:#4b0082;
+    
+}

@@ -1,0 +1,24 @@
+#k1 {
+    height: 150px;
+    width: 200px;
+    border: 1px solid transparent;
+    top: -100px;
+    left: -80px;
+    overflow: hidden;
+}
+
+#k2 {
+    position: absolute;
+    top: 40px;
+    right: -80px;
+    height: 50px;
+    width: 350px;
+    background: #b22222;
+    border: 1px solid black;
+    font-size: 25px;
+    color: white;
+    text-indent: 90px;
+    border: 2px solid white;
+    box-shadow: 0 0px 0px 15px rgba(171, 110, 110, 0);
+    transform: rotate(45deg);
+}

@@ -1,0 +1,15 @@
+#ff {
+    background-color: #d2b487;
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+
+#footer {
+    background-color: orange;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    color: red;
+}

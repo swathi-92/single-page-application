@@ -1,0 +1,13 @@
+body {
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+
+#tformat p:first-child {
+    color: cyan;
+}
+
+#tformat p:last-child {
+    color: cyan;
+}

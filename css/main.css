@@ -1,0 +1,42 @@
+@import url("../modules/menu1/css/menu.css");
+@import url("../modules/human-face/css/face.css");
+@import url("../modules/firstpara/css/textformat.css");
+@import url("../modules/hover/css/image.css");
+@import url("../modules/circularimage/css/circular.css");
+@import url("../modules/rotation/css/rotation.css");
+@import url("../modules/formatempty/css/formatempty.css");
+@import url("../modules/shape/css/shape.css");
+@import url("../modules/button/css/button.css");
+@import url("../modules/firstletter/css/first.css");
+@import url("../modules/columns/css/column.css");
+@import url("../modules/footer/css/footer.css");
+@import url("../modules/blur/css/blur.css");
+@import url("../modules/borderimage/css/pbod.css");
+@import url("../modules/contentreset/css/content-reset.css");
+@import url("../modules/3boxes/css/box.css");
+@import url("../modules/About/css/about.css");
+
+
+body
+{
+	background: url("../images/hh.jpg");
+}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+/* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.img
+{
+font-size: 50px;
+	font-weight: bold;
+	color: #dda0dd;
+}
+.img1{
+	margin:50px;
+	float: right;
+}
+

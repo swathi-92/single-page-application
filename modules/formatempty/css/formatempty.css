@@ -1,0 +1,12 @@
+#fempty p {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    font-size: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: black;
+}
+#fempty p:empty {
+    background-color: orange;
+}
